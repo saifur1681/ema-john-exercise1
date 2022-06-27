@@ -27,7 +27,6 @@ const Dokan = () => {
                         key={jinis.key}
                         jinis={jinis}
                         handleClicked={handleClicked}
-
                     />)
                 }
             </div>
@@ -35,7 +34,6 @@ const Dokan = () => {
             <div>
                 <Hisab
                     hisab={hisab}
-
                 />
             </div>
         </div>

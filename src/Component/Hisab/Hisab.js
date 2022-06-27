@@ -2,14 +2,14 @@ import React from 'react';
 
 const Hisab = (props) => {
     const { hisab } = props;
-    const total = hisab.reduce((previous, product) => previous + product.price, 0)
+    const total = hisab.reduce((previous, product) => previous + product.price, 0);
     // let total = 0;
     // for (const jinis of hisab) {
     //     total = total + jinis.price;
     // }
     const shipping = 15;
 
-    const tax = (total + shipping) * .10
+    const tax = (total + shipping) * .10;
 
     const orderedTotal = shipping + tax + total;
 

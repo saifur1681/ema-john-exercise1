@@ -14,6 +14,7 @@ const Jinis = (props) => {
             <div className="img-div">
                 <img src={img} alt="" />
             </div>
+            
             <div>
                 <h3>{name}</h3>
                 <p><FontAwesomeIcon icon={faShoppingCart} /> by: {seller}</p>
